@@ -24,7 +24,7 @@ const MoviePage = (props) => {
                 <ImageList
                   cellHeight={500}
                   sx={{
-                    width: 450,
+                    // width: 450,
                     height: "100vh",
                   }}
                   cols={1}

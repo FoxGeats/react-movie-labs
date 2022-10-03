@@ -71,9 +71,17 @@ const sample = {
     },
   ],
   production_countries: [
+    // {
+    //   iso_3166_1: "US",
+    //   name: "United States of America",
+    // },
     {
-      iso_3166_1: "US",
-      name: "United States of America",
+      iso_3166_1: "France",
+      name: "France",
+    },
+    {
+      iso_3166_1: "Lithuania",
+      name: "Lithuania",
     },
   ],
   release_date: "2017-12-13",
