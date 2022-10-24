@@ -101,6 +101,7 @@ const handleSnackClose = (event) => {
       <Typography component="h2" variant="h3">
         Write a review
       </Typography>
+      
       <Snackbar
         sx={styles.snack}
         anchorOrigin={{ vertical: "top", horizontal: "right" }}
@@ -117,6 +118,7 @@ const handleSnackClose = (event) => {
           </Typography>
         </MuiAlert>
       </Snackbar>
+
       <form sx={styles.form} onSubmit={handleSubmit(onSubmit)} noValidate>
         <Controller
           name="author"
