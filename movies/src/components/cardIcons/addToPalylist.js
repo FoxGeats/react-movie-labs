@@ -7,6 +7,8 @@ const AddToPlayListIcon = ({ movie }) => {
   const context = useContext(MoviesContext);
 
   const handleAddToPlayList = (e) => {
+    e.preventDefault();
+    context.addToPlayList(movie);
     
   };
 
